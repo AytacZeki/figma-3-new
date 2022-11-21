@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-image: url('https://cdn.wallpapersafari.com/13/28/OW1PvE.jpg');
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    width: 85%;
+    margin: 0 auto;
+
+}
+.title img{
+    height: 55px;
+}
+ul {
+    display: flex;
+    padding-top: 1vh;
+    width: 69%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+ul li {
+    margin-right: 5%;
+    list-style: none;
+}
+ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+.voyti button{
+    padding: 10px;
+    background: none;
+    border-radius: 7px;
+    color: blanchedalmond;
+    border: blanchedalmond solid 3px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
