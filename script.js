@@ -1,8 +1,8 @@
-// fetch('https://api.exchangerate.host/symbols')
-// .then(res => res.json())
-// .then(data => {
-//     console.log(data)
-// })
+fetch('https://api.exchangerate.host/symbols')
+.then(res => res.json())
+.then(data => {
+    console.log(data)
+})
 
 const apiBaseUrl = 'https://api.exchangerate.host';
 const form = document.querySelector('#converter-form');
@@ -21,7 +21,7 @@ const maskOptions = {
     padFractionalZeros: false,
     normalizeZeros: true,
     radix: '.',
-    mapToRadix: ['.'],
+    mapToRadix: [','],
 };
 
 const fromMask = IMask(fromInput, maskOptions);
