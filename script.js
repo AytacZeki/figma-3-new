@@ -1,9 +1,3 @@
-fetch('https://api.exchangerate.host/symbols')
-.then(res => res.json())
-.then(data => {
-    console.log(data)
-})
-
 const apiBaseUrl = 'https://api.exchangerate.host';
 const form = document.querySelector('#converter-form');
 const fromInput = document.querySelector('input[name=from-amount]');
